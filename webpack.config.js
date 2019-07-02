@@ -52,6 +52,10 @@ module.exports = {
             use: {
                 loader: 'file-loader'
             }
+        },{ 
+            test: /\.js$/, 
+            exclude: /node_modules/, 
+            loader: 'babel-loader',
         }]
     },
     plugins: [new HtmlWebpackPlugin({
