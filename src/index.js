@@ -1,11 +1,1 @@
-import "@babel/polyfill";
-import React, { Component } from 'react';
-import ReactDom from 'react-dom';
-
-class App extends Component {
-    render(){
-        return <div>Hello World</div>
-    }
-}
-
-ReactDom.render(<App />, document.getElementById('root'));
+console.log('hello this is liusisi');
